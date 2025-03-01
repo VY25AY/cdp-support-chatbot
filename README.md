@@ -4,6 +4,14 @@ A web-based chatbot that answers "how-to" questions related to four Customer Dat
 
 ![Screenshot 2025-03-01 190421](https://github.com/user-attachments/assets/0c48daca-bae0-4f26-bc05-4b8f91491cde)
 
+
+## Demo Vedio
+
+
+https://github.com/user-attachments/assets/31624d73-f915-4514-838f-324c75b0b88a
+
+
+
 ## Features
 
 ### Core Functionalities
