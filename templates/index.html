@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDP Support Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CDP Support Chatbot</h1>
+            <p>Ask me how-to questions about Segment, mParticle, Lytics, and Zeotap</p>
+        </header>
+
+        <main class="chat-container">
+            <div id="chat-history">
+                <div class="message bot">
+                    <div class="message-content">
+                        Hello! I'm your CDP Support Assistant. How can I help you today?
+                        <br><br>
+                        You can ask me questions like:
+                        <ul>
+                            <li>"How do I set up a new source in Segment?"</li>
+                            <li>"How can I create a user profile in mParticle?"</li>
+                            <li>"How do I build an audience segment in Lytics?"</li>
+                            <li>"How can I integrate my data with Zeotap?"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <textarea 
+                    id="user-input" 
+                    placeholder="Type your question here..."
+                    rows="2"
+                    ></textarea>
+                <button id="send-button">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
