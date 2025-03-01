@@ -2,6 +2,8 @@
 
 A web-based chatbot that answers "how-to" questions related to four Customer Data Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. The chatbot extracts relevant information from official documentation to guide users on performing tasks within each platform.
 
+![Screenshot 2025-03-01 190421](https://github.com/user-attachments/assets/0c48daca-bae0-4f26-bc05-4b8f91491cde)
+
 ## Features
 
 ### Core Functionalities
